@@ -1,7 +1,7 @@
 import json
 
-from config import JSON_SCHEMAS_DIR
 from jsonschema.validators import validate
+from paths import JSON_SCHEMAS_DIR
 from requests import Response
 
 

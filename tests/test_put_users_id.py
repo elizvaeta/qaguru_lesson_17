@@ -17,8 +17,6 @@ def test_put_user(user):
 
     response_body = response.json()
 
-    print(response_body)
-
     assert response.status_code == 200
     assert response_body['name'] == name
     assert 'job' not in response_body
